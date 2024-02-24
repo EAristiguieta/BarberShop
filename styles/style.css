@@ -1,0 +1,48 @@
+button {
+  background-color: #ae7a5a !important;
+  border: none !important;
+}
+
+.sectionOne {
+  background-image: url("./images/foto1.jpeg");
+  height: 130vh;
+  background-size: cover;
+  position: relative;
+}
+.sectionOne .introduccion {
+  padding-top: 40vh;
+  padding-right: 10vw;
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: right;
+  color: white;
+}
+
+.logoBarber {
+  width: 10vw;
+  position: absolute;
+  left: 27%;
+  top: 85%;
+  translate: -25% -25%;
+}
+
+@media (max-width: 767px) {
+  .sectionOne {
+    background-size: cover;
+    background-position: 15%;
+  }
+  .logoBarber {
+    width: 40vw;
+    left: 35%;
+    top: 50%;
+  }
+  .introduccion {
+    /* background-color: red; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+  }
+}/*# sourceMappingURL=style.css.map */
