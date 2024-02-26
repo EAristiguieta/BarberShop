@@ -3,6 +3,17 @@ button {
   border: none !important;
 }
 
+hr {
+  color: #ae7a5a;
+  border: solid 2.5px;
+  width: 50px;
+}
+
+.brownText {
+  color: #ae7a5a;
+  font-weight: bold;
+}
+
 .sectionOne {
   background-image: url("./images/foto1.jpeg");
   height: 130vh;
@@ -39,10 +50,35 @@ button {
     top: 50%;
   }
   .introduccion {
-    /* background-color: red; */
     align-items: center;
     justify-content: center;
     text-align: center;
     align-content: center;
+  }
+}
+.containerBackground {
+  background-color: #f8fbf6;
+}
+
+.sectionTwo {
+  padding-top: 5rem;
+}
+.sectionTwo .containerImgBarber {
+  display: flex;
+  justify-content: center;
+}
+.sectionTwo img {
+  border-radius: 5px;
+}
+
+@media (max-width: 767px) {
+  .sectionTwo {
+    padding-top: 1rem;
+  }
+  .sectionTwo .info {
+    padding-top: 1rem;
+  }
+  .sectionTwo .containerImgBarber {
+    padding-top: 2rem;
   }
 }/*# sourceMappingURL=style.css.map */
