@@ -86,4 +86,22 @@ hr {
   .sectionTwo .containerImgBarber {
     padding-top: 2rem;
   }
+}
+.sectionThree img {
+  width: 20rem;
+  height: 20rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 1rem;
+}
+.sectionThree .subtitle-barber {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.sectionThree .images-container {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */

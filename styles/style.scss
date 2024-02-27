@@ -20,6 +20,8 @@ hr {
   font-weight: bold;
 }
 
+//seccion 1 //////////////////////////////////////////////
+
 .sectionOne {
   background-image: url("./images/foto1.jpeg");
   height: 130vh;
@@ -64,6 +66,8 @@ hr {
   }
 }
 
+//seccion 2 //////////////////////////////////////////////
+
 .containerBackground {
   background-color: #f8fbf6;
 }
@@ -89,5 +93,27 @@ hr {
     .containerImgBarber {
       padding-top: 2rem;
     }
+  }
+}
+
+.sectionThree {
+  img {
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    margin: 1rem;
+  }
+
+  .subtitle-barber {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .images-container {
+    display: flex;
+    justify-content: center;
   }
 }
