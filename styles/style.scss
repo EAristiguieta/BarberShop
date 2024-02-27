@@ -15,9 +15,21 @@ hr {
   width: 50px;
 }
 
+.brandTitle {
+  font-weight: bolder;
+}
+
 .brownText {
   color: #ae7a5a;
   font-weight: bold;
+}
+
+.subtitle-barber {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
 //seccion 1 //////////////////////////////////////////////
@@ -73,7 +85,7 @@ hr {
 }
 
 .sectionTwo {
-  padding-top: 5rem;
+  padding: 5rem;
 
   .containerImgBarber {
     display: flex;
@@ -104,16 +116,26 @@ hr {
     margin: 1rem;
   }
 
-  .subtitle-barber {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    text-align: center;
-  }
-
   .images-container {
     display: flex;
     justify-content: center;
+  }
+}
+
+.sectionFour {
+  padding: 5rem;
+  background-color: #ccd0cb;
+}
+
+.cover-image-logo-big {
+  background-image: url("./images/logo2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+@media (max-width: 767px) {
+  .sectionFour {
+    padding: 2rem;
   }
 }
