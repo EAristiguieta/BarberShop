@@ -146,6 +146,7 @@ hr {
 }
 
 .sectionFive {
+  position: relative;
   padding: 5rem;
   .minibox {
     display: flex;
@@ -153,6 +154,12 @@ hr {
     justify-content: space-evenly;
   }
   .presentationSecFive {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
     background: #333333;
     border: #333333 5px solid;
     color: white;
@@ -160,10 +167,16 @@ hr {
     width: 40vw;
   }
   .shape {
+    position: absolute;
+    object-fit: cover;
+    left: 40%;
+    bottom: 5%;
+    z-index: -1000;
     width: 30vw;
   }
   .portraid {
     width: 20vw;
+    object-fit: cover;
     border: white 7px solid;
     outline: 1px solid grey;
   }
@@ -176,6 +189,89 @@ hr {
     }
     .portraid {
       width: 40vw;
+    }
+    .shape {
+      position: initial;
+      width: 60vw;
+    }
+  }
+}
+
+.sectionSix {
+  padding: 5rem;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 767px) {
+  .sectionSix {
+    padding: 1rem;
+    padding-bottom: 5rem;
+  }
+  .sectionSixContainer {
+    display: block;
+  }
+}
+
+.sectionSeven {
+  padding: 5rem;
+  background-color: #ccd0cb;
+  .portraitPic {
+    border: 5px solid black;
+  }
+
+  .sectionSevenContainer {
+    display: flex;
+
+    justify-content: center;
+  }
+  img {
+    width: 20rem;
+
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 767px) {
+  .sectionSeven {
+    padding-top: 1rem;
+    .sectionSevenContainer {
+      display: block;
+    }
+  }
+}
+
+.sectionEith {
+  padding: 5rem;
+  background-image: url("./images/foto15.jpeg");
+  background-position: 50%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  .comillas {
+    font-weight: bolder;
+    padding: 0;
+    font-size: 5rem;
+    margin-bottom: -2rem;
+  }
+  .testimonials {
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    border: 1px solid white;
+    width: 50vw;
+  }
+}
+
+@media (max-width: 767px) {
+  .sectionEith {
+    .testimonials {
+      padding: 1rem;
+      text-align: center;
+      width: 80vw;
     }
   }
 }
