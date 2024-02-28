@@ -90,7 +90,8 @@ hr {
 
 @media (max-width: 767px) {
   .sectionTwo {
-    padding-top: 1rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
   .sectionTwo .info {
     padding-top: 1rem;
@@ -99,12 +100,15 @@ hr {
     padding-top: 2rem;
   }
 }
+.sectionThree {
+  padding: 5rem;
+}
 .sectionThree img {
   width: 20rem;
   height: 20rem;
   -o-object-fit: cover;
      object-fit: cover;
-  margin: 1rem;
+  margin: 0.4rem;
 }
 .sectionThree .images-container {
   display: flex;
@@ -125,6 +129,41 @@ hr {
 
 @media (max-width: 767px) {
   .sectionFour {
-    padding: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+.sectionFive {
+  padding: 5rem;
+}
+.sectionFive .minibox {
+  display: flex;
+  gap: 30px;
+  justify-content: space-evenly;
+}
+.sectionFive .presentationSecFive {
+  background: #333333;
+  border: #333333 5px solid;
+  color: white;
+  box-shadow: inset 0 0 0 2px white;
+  width: 40vw;
+}
+.sectionFive .shape {
+  width: 30vw;
+}
+.sectionFive .portraid {
+  width: 20vw;
+  border: white 7px solid;
+  outline: 1px solid grey;
+}
+
+@media (max-width: 767px) {
+  .sectionFive .presentationSecFive {
+    width: 60vw;
+  }
+  .sectionFive .portraid {
+    width: 40vw;
   }
 }/*# sourceMappingURL=style.css.map */
