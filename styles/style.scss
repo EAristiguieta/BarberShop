@@ -71,6 +71,7 @@ hr {
     top: 50%;
   }
   .introduccion {
+    padding-right: 0vw !important;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -199,6 +200,7 @@ hr {
 
 .sectionSix {
   padding: 5rem;
+  background-color: #d7dbd6;
   img {
     width: 100%;
     height: 100%;
@@ -272,6 +274,39 @@ hr {
       padding: 1rem;
       text-align: center;
       width: 80vw;
+    }
+  }
+}
+
+footer {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+
+  .containerFooter {
+    gap: 10px;
+  }
+
+  .containerLogosSM {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .logoFooter {
+    width: 10vw;
+  }
+
+  .socialMedia {
+    width: 2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  footer {
+    .logoFooter {
+      width: 15vw;
     }
   }
 }
