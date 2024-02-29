@@ -46,9 +46,11 @@ hr {
 // section 1 ------------------------------------------------------------------
 
 .section-one {
-  background-image: url("./images/foto1.jpeg");
+  background-image: linear-gradient(rgb(0 0 0 / 50%), rgb(0 0 0 / 50%)),
+    url("./images/foto1.jpeg");
   height: 130vh;
   background-size: cover;
+  mix-blend-mode: multiply;
   position: relative;
   .introduction {
     padding-top: 40vh;
@@ -187,7 +189,7 @@ hr {
     flex-direction: column;
     flex-wrap: wrap;
     text-align: left;
-    background: #333333;
+    background-color: rgba(51, 51, 51, 0.95);
     border: #333333 5px solid;
     color: $text-white;
     box-shadow: inset 0 0 0 2px white;
@@ -282,7 +284,8 @@ hr {
 
 .section-eight {
   padding: 5rem;
-  background-image: url("./images/foto15.jpeg");
+  background-image: linear-gradient(rgb(0 0 0 / 50%), rgb(0 0 0 / 50%)),
+    url("./images/foto15.jpeg");
   background-position: 50%;
   background-size: cover;
   display: flex;
