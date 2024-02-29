@@ -40,13 +40,13 @@ hr {
   text-align: center;
 }
 
-.sectionOne {
+.section-one {
   background-image: url("./images/foto1.jpeg");
   height: 130vh;
   background-size: cover;
   position: relative;
 }
-.sectionOne .introduccion {
+.section-one .introduction {
   padding-top: 40vh;
   padding-right: 10vw;
   display: flex;
@@ -57,7 +57,7 @@ hr {
   color: white;
 }
 
-.logoBarber {
+.logo-barber {
   width: 10vw;
   position: absolute;
   left: 27%;
@@ -66,16 +66,16 @@ hr {
 }
 
 @media (max-width: 767px) {
-  .sectionOne {
+  .section-one {
     background-size: cover;
     background-position: 15%;
   }
-  .logoBarber {
+  .logo-barber {
     width: 40vw;
     left: 40%;
     top: 50%;
   }
-  .introduccion {
+  .introduction {
     padding-right: 0vw !important;
     align-items: center;
     justify-content: center;
@@ -84,43 +84,39 @@ hr {
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .logoBarber {
+  .logo-barber {
     left: 80%;
     top: 45%;
   }
 }
-.containerBackground {
+.container-background {
   background-color: #f8fbf6;
 }
 
-.sectionTwo {
+.section-two {
   padding: 5rem;
 }
-.sectionTwo .containerImgBarber {
+.section-two .container-img-barber {
   display: flex;
   justify-content: center;
 }
-.sectionTwo img {
+.section-two img {
   border-radius: 5px;
 }
 
 @media (max-width: 767px) {
-  .sectionTwo {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
-  .sectionTwo .info {
+  .section-two .info {
     padding-top: 1rem;
   }
-  .sectionTwo .containerImgBarber {
+  .section-two .container-img-barber {
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
 }
-.sectionThree {
+.section-three {
   padding: 5rem;
 }
-.sectionThree img {
+.section-three img {
   width: 20rem;
   height: 20rem;
   -o-object-fit: cover;
@@ -128,12 +124,12 @@ hr {
   margin: 0.4rem;
   border-radius: 20px;
 }
-.sectionThree .images-container {
+.section-three .images-container {
   display: flex;
   justify-content: center;
 }
 
-.sectionFour {
+.section-four {
   padding: 5rem;
   background-color: #ccd0cb;
 }
@@ -146,23 +142,21 @@ hr {
 }
 
 @media (max-width: 767px) {
-  .sectionFour {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+  .section-four {
     padding-left: 2rem;
     padding-right: 2rem;
   }
 }
-.sectionFive {
+.section-five {
   position: relative;
   padding: 5rem;
 }
-.sectionFive .minibox {
+.section-five .minibox {
   display: flex;
   gap: 30px;
   justify-content: space-evenly;
 }
-.sectionFive .presentationSecFive {
+.section-five .presentation-sec-five {
   display: flex;
   justify-content: center;
   align-items: left;
@@ -175,7 +169,7 @@ hr {
   box-shadow: inset 0 0 0 2px white;
   width: 40vw;
 }
-.sectionFive .shape {
+.section-five .shaved {
   position: absolute;
   -o-object-fit: cover;
      object-fit: cover;
@@ -185,7 +179,7 @@ hr {
   width: 30vw;
   border-radius: 10px;
 }
-.sectionFive .portraid {
+.section-five .portraid {
   width: 20vw;
   -o-object-fit: cover;
      object-fit: cover;
@@ -194,22 +188,22 @@ hr {
 }
 
 @media (max-width: 767px) {
-  .sectionFive .presentationSecFive {
+  .section-five .presentation-sec-five {
     width: 60vw;
   }
-  .sectionFive .portraid {
+  .section-five .portraid {
     width: 40vw;
   }
-  .sectionFive .shape {
+  .section-five .shaved {
     position: initial;
     width: 60vw;
   }
 }
-.sectionSix {
+.section-six {
   padding: 5rem;
   background-color: #d7dbd6;
 }
-.sectionSix img {
+.section-six img {
   width: 100%;
   height: 100%;
   border-radius: 5px;
@@ -218,39 +212,39 @@ hr {
 }
 
 @media (max-width: 767px) {
-  .sectionSix {
+  .section-six {
     padding-right: 1rem;
     padding-left: 1rem;
   }
-  .sectionSixContainer {
+  .section-six-sub-container {
     display: block;
   }
 }
-.sectionSeven {
+.section-seven {
   padding: 5rem;
   background-color: #ccd0cb;
 }
-.sectionSeven .portraitPic {
+.section-seven .portrait-pic {
   border: 5px solid black;
 }
-.sectionSeven .sectionSevenContainer {
+.section-seven .section-seven-container {
   display: flex;
   background-color: white;
   border-radius: 5px;
   justify-content: center;
 }
-.sectionSeven img {
+.section-seven img {
   width: 20rem;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
 @media (max-width: 767px) {
-  .sectionSeven .sectionSevenContainer {
+  .section-seven .section-seven-container {
     display: block;
   }
 }
-.sectionEith {
+.section-eight {
   padding: 5rem;
   background-image: url("./images/foto15.jpeg");
   background-position: 50%;
@@ -258,13 +252,13 @@ hr {
   display: flex;
   justify-content: center;
 }
-.sectionEith .comillas {
+.section-eight .comillas {
   font-weight: bolder;
   padding: 0;
   font-size: 5rem;
   margin-bottom: -2rem;
 }
-.sectionEith .testimonials {
+.section-eight .testimonials {
   text-align: center;
   padding: 1rem;
   color: white;
@@ -273,7 +267,7 @@ hr {
 }
 
 @media (max-width: 767px) {
-  .sectionEith .testimonials {
+  .section-eight .testimonials {
     padding: 1rem;
     text-align: center;
     width: 80vw;
@@ -286,22 +280,22 @@ footer {
   text-align: center;
   background-color: black;
 }
-footer .containerFooter {
+footer .container-footer {
   gap: 10px;
 }
-footer .containerLogosSM {
+footer .container-logos-SM {
   display: flex;
   justify-content: space-evenly;
 }
-footer .logoFooter {
+footer .logo-footer {
   width: 10vw;
 }
-footer .socialMedia {
+footer .social-media-logos {
   width: 2rem;
 }
 
 @media (max-width: 767px) {
-  footer .logoFooter {
+  footer .logo-footer {
     width: 15vw;
   }
 }/*# sourceMappingURL=style.css.map */
