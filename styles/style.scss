@@ -2,13 +2,49 @@
 
 $text-white: white;
 
-body {
+//Generales y navbar
+
+* {
   font-family: "PT Serif", serif;
+  scrollbar-color: #ae7a5a #3d3d3d;
+  scrollbar-width: thin;
 }
 
-button {
+nav {
+  button {
+    background-color: #ae7a5a !important;
+  }
+  .logo-navbar {
+    font-size: 2rem;
+  }
+}
+
+.moustache {
+  margin: 0;
+  padding: 0;
+  width: 30%;
+}
+
+.close-btn {
+  width: 30% !important;
+  height: 30% !important;
+}
+
+@media (max-width: 767px) {
+  .offcanvas {
+    width: 50% !important;
+  }
+}
+
+.btn-barber {
   background-color: #ae7a5a !important;
   border: none !important;
+  transition: background-color 0.9s ease, color 0.9s ease;
+}
+.btn-barber:hover {
+  background-color: #ccd0cb !important;
+  border: 1px solid black !important;
+  color: black !important;
 }
 
 th,
@@ -121,6 +157,8 @@ hr {
   }
 }
 
+// MediaMovile ------------------------------------------------------------------
+
 @media (max-width: 767px) {
   .section-two {
     .info {
@@ -164,6 +202,8 @@ hr {
   background-repeat: no-repeat;
   background-position: 50%;
 }
+
+// MediaMovile ------------------------------------------------------------------
 
 @media (max-width: 767px) {
   .section-four {
@@ -212,6 +252,8 @@ hr {
   }
 }
 
+// MediaMovile ------------------------------------------------------------------
+
 @media (max-width: 767px) {
   .section-five {
     .presentation-sec-five {
@@ -239,6 +281,8 @@ hr {
     object-fit: cover;
   }
 }
+
+// MediaMovile ------------------------------------------------------------------
 
 @media (max-width: 767px) {
   .section-six {
@@ -272,6 +316,8 @@ hr {
   }
 }
 
+// MediaMovile ------------------------------------------------------------------
+
 @media (max-width: 767px) {
   .section-seven {
     .section-seven-container {
@@ -304,6 +350,8 @@ hr {
     width: 50vw;
   }
 }
+
+// MediaMovile ------------------------------------------------------------------
 
 @media (max-width: 767px) {
   .section-eight {
@@ -339,6 +387,8 @@ footer {
     width: 2rem;
   }
 }
+
+// MediaMovile ------------------------------------------------------------------
 
 @media (max-width: 767px) {
   footer {
