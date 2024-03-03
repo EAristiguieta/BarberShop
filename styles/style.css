@@ -156,6 +156,10 @@ hr {
      object-fit: cover;
   margin: 0.4rem;
   border-radius: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+.section-three img:hover {
+  transform: scale(1.1);
 }
 .section-three .images-container {
   display: flex;

@@ -181,6 +181,12 @@ hr {
     object-fit: cover;
     margin: 0.4rem;
     border-radius: 20px;
+
+    transition: transform 0.3s ease-in-out;
+  }
+
+  img:hover {
+    transform: scale(1.1);
   }
 
   .images-container {
