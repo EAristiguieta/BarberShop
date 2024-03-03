@@ -4,10 +4,8 @@
 <p> Html / Sass / Bootstrap</p>
   <h2>Capturas </h2> 
 
-![barber-vista-movil](https://github.com/EAristiguieta/BarberShop/assets/147413490/86aff7bf-d353-45d9-9edb-b1e816332991)
-![barber-vista-movil-2](https://github.com/EAristiguieta/BarberShop/assets/147413490/30b92621-dd89-466a-afb8-1ead6552635c)
-![barber-vista-escritorio-2](https://github.com/EAristiguieta/BarberShop/assets/147413490/2fc85e6f-39cf-4f3d-8fe0-ff4473cc8787)
-![barber-vista-escritorio](https://github.com/EAristiguieta/BarberShop/assets/147413490/31637570-5126-44c1-a56a-1ae6b9675932)
+![Infografia-Barber](https://github.com/EAristiguieta/BarberShop/assets/147413490/6fd93bcb-ec82-4b55-a81a-e93cb1491b26)
+
 
 <p>Quieres verla?</p>
 <img src="https://github.com/EAristiguieta/Portfolio/assets/147413490/e7d49fb8-a45b-48b6-b114-ec761e0553c8" alt="Git" width="50">
